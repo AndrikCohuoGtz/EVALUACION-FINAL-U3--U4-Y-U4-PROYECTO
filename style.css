@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Parte inicial */
+.encabezado {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0,160,222,255);
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 15px;
+}
+.logo {
+    padding-right: 130px;
+    padding-left: 30px;
+}
+.encabezado h3 {
+    padding: 0 0 0 35px;
+}
+.imagenuno {
+    width: 100%;
+    height: 405px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/primerfondo.jpg);
+    color: white;
+    font-size: 22px;
+}
+.ejemplo {
+    padding-bottom: 120px;
+    text-align: center;
+    width: 50%;
+    text-shadow: 0.05em 0.08em black;
+    font-size: 70px;
+}
+.textos-intermedios {
+    padding-top: 60px;
+}
+.textos-intermedios h3 {
+    font-size: 15px;
+}
+.textos {
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: rgba(0, 0, 0, 0.637);
+}
+/* Diseño de la galería */
+.galeria {
+    width: 80%;
+    position: relative;
+    margin: 0px auto;
+}
+.mySlides {
+    display: none;
+}
+.mySlides img {
+    width: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-size: 40px;
+}
+.next {
+    right: 0;
+}
+.elements {
+    text-align: center;
+}
+.quadrate {
+    cursor: pointer;
+    height: 6px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 2px;
+}
+.active, .quadrate:hover {
+    background-color: rgba(0, 162, 255, 0.507);
+}
+/*--------------------------------------*/
+/* Parte final */
+.texto-final {
+    text-align: center;
+    width: auto;
+    height: 250px;
+    font-size: 23px;
+}
+.fondo-final {
+    width: 100%;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./img/segundofondo.jpg);
+    color: white;
+    font-size: 22px;
+    text-shadow: 0.2em 0.1em black;
+}
+.contenedor-textoUno,
+.contenedor-textoDos {
+    width: 50%;
+    text-align: center;
+}
+.telefono {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.telefono img {
+    width: 50px;
+    height: 50px;
+    padding: 15px 20px 0 0; 
+}
+.botones {
+    background-color: gray;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+}
+/* --- */
+.final {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    background-color: rgba(27,40,49,255);
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 15px;
+    justify-content: center;
+}
+.final h3 {
+    padding: 20px 0 20px 50px;
+}
+.animacion{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(27,40,49,255);
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: -20px;
+}
+.anima{
+    padding-top: 8px;
+    padding: 8px 15px 0 15px;
+}
+.pie-pagina {
+    background-color: rgba(27,40,49,255);
+    color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    justify-content: left;
+    padding: 0 0 30px 0;
+}
+.pie-pagina h3 {
+    padding: 8px 15px 0 40px;
+}
+.pie-pagina img {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 230px;
+    width: auto;
+    height: 55px;
+}
+/*---- @media screen and (max-width:900px) {
+    .contenedor {
+        width: 100%;
+    }    
+}
+---*/
